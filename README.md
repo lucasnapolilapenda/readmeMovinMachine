@@ -20,7 +20,7 @@ Database should be designed thinking in the data flow process taking in to consi
 7. Units
 
 
-# Assumptions: Users Stories 
+# Assumptions: User's Stories 
 
 Some assumptions are important to design the database:
 1. Credentials management tables are not required
