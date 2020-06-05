@@ -1,4 +1,4 @@
-# In-class Activity: Office Machine
+# Take-home Assignment: MovinOn
 
 ![N|](https://www.mcgill.ca/research-jobs/sites/all/themes/moriarty/images/logo-red.svg)
 
