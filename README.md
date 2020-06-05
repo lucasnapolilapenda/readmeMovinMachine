@@ -43,7 +43,7 @@ Some assumptions are important to design the database:
 
 # ER Diagram
 
-![N|](Pics/MovingOn.png)
+![N|](Pics/MovingOn1.png)
 
 
 # License
