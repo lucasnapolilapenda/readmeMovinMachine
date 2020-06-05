@@ -23,21 +23,22 @@ Database should be designed thinking in the data flow process taking in to consi
 # Assumptions: User's Stories 
 
 Some assumptions are important to design the database:
-1. Credentials management tables are not required
-2. Logical deletion will be implemented to avoid delete records
-3. Control fields are not required
-4. Business rules will be implemented in other layer
-5. We are going to work with states (in-progress, completed, etc) in the cases of jobs and Rent
+1. Credentials management tables are not required.
+2. Logical deletion will be implemented to avoid delete records.
+3. Control fields are not required.
+4. Business rules will be implemented in other layer.
+5. We are going to work with states (in-progress, completed, etc) in the cases of jobs and Rent.
 
 
-# PickLists
+# LookUp Tables Normalization
 
-1. No lookup table will be implemented
+1. Normalization table (LookUpLocation) was implemented to normalize: country, postalCode, region, city. Categories will use to filter by the field requested. 
+2. Status were normalized y managed based on the case: Jobs or Rent. 
 
 
 # Other considerations
-1. Record managed by date to keep the track of the changes
-2. Logic deletion is implemented with a boolean datatype
+1. Record managed by date to keep the track of the changes.
+2. Logic deletion is implemented with a boolean datatype.
 
 
 # ER Diagram
